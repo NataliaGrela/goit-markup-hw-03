@@ -197,7 +197,9 @@
     color: #ffffff;
     border: none;
     cursor: pointer;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .btn-hover {
@@ -254,12 +256,25 @@
     margin-bottom: 25px;
     margin-right: 46px;
   }
+
+  .menu-item-twenty-two {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-right: 46px;
+  }
   
   .menu-item-three {
     margin-top: 24px;
     margin-bottom: 25px;
     margin-right: 46px;
   }
+   
+  .menu-item-thirty-three {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-right: 46px;
+  }
+
   
   .menu-item-four {
     margin-top: 24px;
@@ -277,3 +292,29 @@
     margin-top: 32px;
     margin-bottom: 32px;
   }
+
+  /* .container-info { czemu to nie działa odnośnik do lorem ipsum
+display: flex;
+align-items: center;
+justify-content: space-between;
+  } */
+  
+  .second-tittle {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .photo-first-page { czemu to nie działa 3 zdj pierwsza str
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  } */
+
+  .last-tittle {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+
+
