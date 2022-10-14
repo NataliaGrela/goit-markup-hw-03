@@ -216,6 +216,15 @@
   
   .buttons {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
+  }
+
+  .second-nav-bar {
+  margin-right: 8px;
+  margin-top: 100px;
   }
   
   .page-color {
@@ -293,18 +302,21 @@
     margin-bottom: 32px;
   }
 
-  /* .container-info { czemu to nie działa odnośnik do lorem ipsum
-display: flex;
-align-items: center;
-justify-content: space-between;
-  } */
+/* 
+(czemu to nie działa do lorem ipsum)
+.container-info { 
+  display: flex;
+  flex-direction: row;
+} */
+
   
   .second-tittle {
     display: flex;
     justify-content: center;
   }
 
-  /* .photo-first-page { czemu to nie działa 3 zdj pierwsza str
+  /* 
+   (czemu to nie działa 3 zdj pierwsza str).photo-first-page {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -315,6 +327,15 @@ justify-content: space-between;
     justify-content: center;
   }
 
-  
+  /* (czemu to nie działa stopka)
+  .footer-logo { 
+    margin-left: 215px;
+    margin-top: 60px;
+  } */
+
+  .picture-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 
