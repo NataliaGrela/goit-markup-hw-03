@@ -301,30 +301,30 @@
     margin-top: 32px;
     margin-bottom: 32px;
   }
-
-/* 
-(czemu to nie działa do lorem ipsum)
-.container-info { 
-  display: flex;
-  flex-direction: row;
-} */
-
   
   .second-tittle {
-    display: flex;
-    justify-content: center;
+    /* display: flex; czy to będzie potrzebne*/ 
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-bottom: 60px;
+    margin-left: 624px;
   }
 
-  /* 
-   (czemu to nie działa 3 zdj pierwsza str).photo-first-page {
+  .photo-first-page {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-  } */
+    align-items: flex-start; 
+    justify-content: space-between; 
+    gap: 30px;
+    margin-left: 215px;
+    margin-right: 10px;
+    margin-bottom: 188px;
+  } 
 
   .last-tittle {
-    display: flex;
-    justify-content: center;
+    /* display: flex; 
+    justify-content: center; czy to będzie potrzebne */
+    margin-bottom: 60px;
+    margin-left: 624px;
   }
 
   /* (czemu to nie działa stopka)
@@ -337,5 +337,40 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .lorem-list {
+    display: flex;
+    list-style-type: none;
+ margin-left: 215px;
+    /* justify-content: space-around; */
+  }
+
+  li > h3 {
+    margin-top: 95px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 10px;
+  }
+
+  li > p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+margin-right: 30px;
+width: 270px;
+height: 75px;
+left: 515px;
+top: 800px;
+margin-bottom: 75px;
+  }
+
 
 
