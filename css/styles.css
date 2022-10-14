@@ -141,6 +141,11 @@
   
 .container-footer {
   max-width: 1200px;
+height: 252px;
+display: flex;
+flex-direction: column; 
+align-items: flex-start;
+justify-content: center;
 
 }
 
@@ -161,6 +166,7 @@
 letter-spacing: 0.03em;
     color: var(--item-color);
   }
+
   
   .foot-data {
     font-family: 'Roboto';
@@ -176,6 +182,12 @@ letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
   
+
+  .footer-list{
+    list-style-type: none;
+
+  }
+
   .title-color {
     width: 1200px;
     height: 600px;
@@ -226,7 +238,6 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     margin-bottom: 56px;
-    /* nie wiem co tu dać aby wycentrowac buttony w portofolio */
   }
 
   .second-nav-bar {
@@ -260,6 +271,8 @@ border-radius: 4px;
 
   .page-color {
     background: var(--second-background);
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
   
   button[type=button] {
@@ -335,7 +348,6 @@ border-radius: 4px;
   
   .second-tittle {
     margin-bottom: 60px;
-    /* margin-left: 400px; */
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -346,19 +358,14 @@ letter-spacing: 0.03em;
   }
 
   .photo-first-page {
-    /* display: flex;
-    align-items: flex-start; 
-    justify-content: space-between;  */
     gap: 30px;
     margin-bottom: 188px;
     display: flex;
     list-style-type: none;
- /* margin-left: 215px; */
   } 
 
   .last-tittle {
     margin-bottom: 60px;
-    /* margin: auto; */
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -367,9 +374,6 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
   }
-
-
-
 
 
   .picture-portfolio {
