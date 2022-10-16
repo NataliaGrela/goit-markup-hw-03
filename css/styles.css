@@ -460,7 +460,7 @@ li > p {
 }
 
 .list-photo-name {
-  width: 100%;
+  width: 1200px;
   display: flex;
   align-items: center;
   justify-content: center;
