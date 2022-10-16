@@ -126,11 +126,12 @@
   .menu-color {
     color: #ffffff;
   }
-  
+
+/* 
   .list {
     list-style-type: none;
-  }
-  
+  }  */
+
   a:link {
     text-decoration: none;
   }
@@ -140,20 +141,24 @@
   }
   
 .container-footer {
-  max-width: 1200px;
-height: 252px;
+  width: 1200px;
+  margin: auto;
 display: flex;
 flex-direction: column; 
 align-items: flex-start;
 justify-content: center;
-
+padding-top: 94px;
+padding-bottom: 94px;
+padding-left: 215px;
+font-style: normal;
+background: var(--third-background); 
 }
 
-  .foot-menu {
+  /* .foot-menu {
     font-style: normal;
     background: var(--third-background);
 
-  }
+  } */
 
 
   
@@ -167,7 +172,21 @@ letter-spacing: 0.03em;
     color: var(--item-color);
   }
 
-  
+  .foot-name:hover,
+  .foot-name:focus {
+    color: rgb(118, 164, 207);
+  }
+
+  .foot-menu-color {
+    color: #ffffff;
+  }
+
+  .foot-menu-color:hover,
+  .foot-menu-color:focus {
+    color: rgb(118, 164, 207);
+  }
+
+
   .foot-data {
     font-family: 'Roboto';
     font-style: normal;
@@ -176,6 +195,7 @@ letter-spacing: 0.03em;
     line-height: 1.71;
     color: #ffffff;
     cursor: pointer;
+    margin-bottom: 9px;
   }
   
   .foot-data:hover {
@@ -185,14 +205,12 @@ letter-spacing: 0.03em;
 
   .footer-list{
     list-style-type: none;
-
+    margin-top: 20px;
   }
 
   .title-color {
     width: 1200px;
     height: 600px;
-    left: 0px;
-    top: 80px;
     background: #2f303a;
     color: #ffffff;
     display: flex;
@@ -223,8 +241,6 @@ letter-spacing: 0.03em;
     align-items: center;
     width: 200px;
 height: 50px;
-left: 700px;
-top: 430px;
 margin-top: 30px;
   }
 
@@ -244,12 +260,10 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-  margin-right: 8px;
-  margin-top: 100px;
+  margin-right: 8px; 
+  /* margin-top: 100px;  czy to musi tu być? */
   width: 121px;
 height: 38px;
-left: 510px;
-top: 174px;
 background: #2196F3;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
@@ -271,8 +285,8 @@ border-radius: 4px;
 
   .page-color {
     background: var(--second-background);
-    padding-top: 94px;
-    padding-bottom: 94px;
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
   }
   
   button[type=button] {
@@ -281,9 +295,20 @@ border-radius: 4px;
   
   .container {
     width: 1200px;
+    margin: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
   
   
+  .header-container {
+    width: 1200px;
+    margin: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    border-bottom: 1px solid #ECECEC
+  }
+
   .header-content {
     width: 100%;
     display: flex;
@@ -295,7 +320,10 @@ border-radius: 4px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    list-style-type: none;
   }
+
+  
   
   .menu-item-one {
     margin-left: 215px;
@@ -362,6 +390,7 @@ letter-spacing: 0.03em;
     margin-bottom: 188px;
     display: flex;
     list-style-type: none;
+    list-style-type: none;
   } 
 
   .last-tittle {
@@ -383,7 +412,7 @@ letter-spacing: 0.03em;
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-    /* margin-left: 215px; */
+    list-style-type: none;
   }
 
   .picture-portfolio > li {
@@ -394,9 +423,8 @@ letter-spacing: 0.03em;
   .lorem-list {
     display: flex;
     list-style-type: none;
- /* margin-left: 215px; */
-    /* justify-content: space-around; */
   }
+
 
   li > h3 {
     margin-top: 95px;
@@ -420,8 +448,6 @@ letter-spacing: 0.03em;
 margin-right: 30px;
 width: 270px;
 height: 75px;
-left: 515px;
-top: 800px;
 margin-bottom: 75px;
   }
 
@@ -430,6 +456,7 @@ margin-bottom: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    list-style-type: none;
   }
   
   .photo-name {
@@ -439,8 +466,6 @@ margin-bottom: 75px;
     margin-right: 30px;
     width: 270px;
 height: 368px;
-left: 1115px;
-top: 1635px;
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
