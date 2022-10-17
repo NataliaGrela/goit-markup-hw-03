@@ -320,6 +320,7 @@ button[type='button'] {
   margin: auto; */
   /* padding-top: 94px; */
   padding-bottom: 94px;
+  padding-top: 24px;
 }
 
 .header-content {
