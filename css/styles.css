@@ -307,7 +307,7 @@ button[type='button'] {
   /* width: 1200px; */
   margin: auto;
   /* padding-top: 94px; */
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .border {
@@ -319,7 +319,7 @@ button[type='button'] {
   /* width: 1200px;
   margin: auto; */
   /* padding-top: 94px; */
-  padding-bottom: 94px;
+  padding-bottom: 25px;
   padding-top: 24px;
 }
 
@@ -387,7 +387,7 @@ button[type='button'] {
 }
 
 .second-tittle {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -399,14 +399,14 @@ button[type='button'] {
 
 .photo-first-page {
   gap: 30px;
-  margin-bottom: 188px;
+  /* padding-bottom: 94px; */
   display: flex;
   list-style-type: none;
   justify-content: center;
 }
 
 .last-tittle {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -425,6 +425,7 @@ button[type='button'] {
   align-content: center;
   justify-content: center;
   list-style-type: none;
+  padding-bottom: 94px;
 }
 
 .picture-portfolio > li {
@@ -436,11 +437,10 @@ button[type='button'] {
   display: flex;
   list-style-type: none;
   justify-content: center;
-  padding-bottom: 94px;
 }
 
 li > h3 {
-  margin-top: 95px;
+  padding-top: 94px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -485,7 +485,6 @@ li > p {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 94px;
 }
 
 .gap {
