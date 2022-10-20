@@ -262,6 +262,7 @@ nav .menu-color {
   justify-content: center;
   /* align-items: center; */
   margin-bottom: 56px;
+  padding-top: 94px;
 }
 
 .second-nav-bar {
@@ -313,6 +314,7 @@ button[type='button'] {
 .border {
   border-bottom: 1px solid #ececec;
   min-width: 1200px;
+  /* padding-bottom: 94px; */
 }
 
 .header-container {
